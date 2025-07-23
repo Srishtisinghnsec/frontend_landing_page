@@ -1,0 +1,340 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush:ital,wght@0,400..900;1,400..900&display=swap');
+  body{
+    background-color: #ffe5b6;
+}
+
+.intro{
+    align-items: center;
+    position: relative;
+}
+
+.intro h1{
+    font-family:'Playfair Display';
+    text-align:center;
+    position:absolute;
+    top:125px;
+    right:125px;
+    font-size: 125px;
+    color:bisque;
+}
+
+.intro h4{
+    font-family:'Alex Brush';
+    position:absolute;
+    top:705px;
+    right:125px;
+    color:bisque;
+    text-align: center;
+}
+
+.intro img{
+    width: 100%;
+    padding:50px 20px 20px 5px;
+}
+
+.intro .more{
+    position:absolute;
+    background-color:#6f4e37;
+    top:0;
+    right:0;
+}
+
+.intro .book{
+    position:absolute;
+    background-color:rgb(233, 219, 157);
+    top:850px;
+    right:550px;
+}
+
+.About{
+    position: relative;
+
+}
+
+.About h2{
+    font-family: Geneva;
+    text-align:center;
+    color:#303030;
+}
+
+.About p{
+    width:50%;
+    display:flex;
+    justify-self: flex-end;
+}
+
+.About .contact{
+    position:absolute;
+    top:85px;
+    width:500px;
+    height:280px;
+    background-color:#6e5d57 ;
+}
+
+.About .contact h5{
+    position: absolute;
+    top:-25px;
+    right:220px;
+    align-items: center;
+}
+
+.About .contact h6{
+    position:absolute;
+    top:0;
+    text-align: left;
+    font-family: 'Playfair Display';
+    color:#fcf9da;
+}
+
+.About .contact p{
+    position:absolute;
+    top:65px;
+    left:0;
+    white-space: nowrap; 
+    color:#ffe5b6;
+}
+
+.About .contact .email{
+    position:absolute;
+    top:85px;
+    left:0;
+    white-space: nowrap; 
+    color:#fcf9da;
+}
+
+.About .contact a{
+    position:absolute;
+    top:148px;
+    left:0;
+    white-space: nowrap; 
+    color:#ffe5b6;
+}
+
+.About .contact .phone{
+    position:absolute;
+    top:160px;
+    left:0;
+    white-space: nowrap; 
+    color:#fcf9da;
+}
+
+.About .contact .no{
+    position:absolute;
+    top:225px;
+    left:0;
+    white-space: nowrap; 
+    color:#ffe5b6;
+}
+
+.specialities{
+    position:relative;
+    padding:10px 0,0,0;
+}
+
+.specialities h2{
+    position:absolute;
+    top:0px;
+    left:0;
+}
+
+.specialities img{
+    position:absolute;
+    top:160px;
+    left:50px;
+    width:400px;
+    height:300px;
+    border-radius:20%;
+}
+
+.specialities .right{
+    position:absolute;
+    top:40px;
+    right:40px;
+    width:660px;
+    height:480px;
+    background-color:#6e5d57 ;
+    border-radius: 5%;
+}
+
+.specialities .right ol{
+    font-size:x-small;
+    font-family:'Gill Sans MT';
+     white-space: nowrap;
+     color:#fff6ea;
+}
+
+.specialities .right ol h5 {
+    margin-bottom:  -4px;  
+}
+.specialities .right ol{        
+  list-style: none;       
+  margin: 0;
+  padding: 0;
+}
+
+.specialities li {
+  position: relative;     
+  padding-left: 32px;     
+}
+
+.specialities li::before {
+  position: absolute;
+  left: 0;
+  top: 0.35em;            
+  font-size: 22px;
+}
+
+.specialities li:nth-child(1)::before { content: "✔";  color: #27ae60; } /* tick */
+.specialities li:nth-child(2)::before { content: "🥐"; }                 /* croissant */
+.specialities li:nth-child(3)::before { content: "🍹"; }                 /* cocktail glass */
+.specialities li:nth-child(4)::before { content: "🌱"; }                 /* sprout */
+.specialities li:nth-child(5)::before { content: "🎵"; }                 /* music note */
+
+.menu{
+    position:relative;
+    top:520px;
+    left:0;
+    right:0;
+}
+
+.menu .left{
+    position:absolute;
+    top:200px;
+    left:140px;
+    text-align: center;
+}
+
+.menu .left button{
+    background-color: #6f4e37;
+    color:white;
+}
+
+.menu .image{
+    position:absolute;
+    top:120px;
+    left:auto;
+    right:40px;
+}
+
+.menu .image .i1 {
+    position:absolute;
+    right:540px;
+    top:0;
+}
+
+.menu .image .i2 {
+    position:absolute;
+    right:270px;
+    top:0;
+}
+
+.menu .image .i3 {
+    position:absolute;
+    right:10px;
+    top:0;
+}
+
+.menu .image img{
+    width:200px;
+    height:400px;
+    border-radius: 10%;
+}
+
+.menu .image .c1,.c2,.c3{
+    position:relative;
+    top:-80px;
+    background-color: white;
+    color:black;
+    padding:0 0 1px 1px;
+    border-radius: 5%;
+}
+
+.menu .image h6,p{
+    margin:0;
+}
+
+.menu .image h6{
+    text-align: center;
+}
+
+.menu .image p{
+    font-size: x-small;
+    margin-top: 1px;
+}
+
+.last{
+    position:relative;
+    top:1250px;
+    left:0;
+    right:0;
+}
+
+.last .left{
+    position:absolute;
+    top:0;
+    left:40px;
+}
+
+.last .left img{
+    width:600px;
+    height:400px;
+}
+
+.last .right{
+    position:absolute;
+    top:-40px;
+    right:180px;
+}
+
+.last.right h3{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.last .right .starburst{
+  /* size — tweak this and everything scales */
+  width:300px;                /* try 180px or 320px etc.          */
+  aspect-ratio:1/1;           /* keeps it square automatically     */
+
+  /* look & feel */
+  background:#6f4e37;         /* badge colour                      */
+  color:#fff;                 /* text colour                       */
+  box-shadow:0 0 15px rgba(0,0,0,.25);
+  text-align:center;
+  padding:10% 14%;            /* room for text                     */
+  display:flex;               /* centres the content vertically    */
+  flex-direction:column;
+  justify-content:center;
+
+  /* ✨ the spikes */
+ clip-path: polygon(
+  100% 50%, 77.7% 61.5%,
+  85.4% 85.4%, 61.5% 77.7%,
+  50% 100%, 38.5% 77.7%,
+  14.6% 85.4%, 22.3% 61.5%,
+  0% 50%, 22.3% 38.5%,
+  14.6% 14.6%, 38.5% 22.3%,
+  50% 0%, 61.5% 22.3%,
+  85.4% 14.6%, 77.7% 38.5%
+);
+
+  /* optional fun */
+  transition:transform .2s ease-in-out;
+}
+.last .right .starburst:hover{
+  transform:scale(1.05) rotate(-2deg);
+}
+
+/* --- 3. your text styles --- */
+.last .right .starburst h3{
+  margin:0;
+  line-height:1.15;
+  font-size:1.8rem;
+}
+.last .right .starburst p{
+  margin:.25rem 0 0;
+  font-size:1rem;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
